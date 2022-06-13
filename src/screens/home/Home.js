@@ -11,6 +11,9 @@ const Box = styled.div`
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 100px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 const Project = styled.div``;
