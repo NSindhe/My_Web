@@ -25,6 +25,18 @@ const ProjectList = styled.div`
   margin-top: 30px;
 `;
 
+const ProjectTitle = styled.span`
+  font-size: 30px;
+  font-color: black;
+  font-weight: 400;
+`;
+
+const SkillList = styled.p`
+  background-color: #b6b7f1b3;
+  padding: 10px;
+  margin-right: 20px;
+`;
+
 // const RightPart = styled.div`
 //   flex: 30%;
 //   margin-top: 30px;
@@ -48,15 +60,15 @@ const Home = () => {
       <Box>
         <LeftPart>
           Skills
-          <p>
+          <SkillList>
             HTML, CSS, JavaScript ReactJS, Redux, NextJS NodeJS, Express,
             Mongodb Graphql
-          </p>
+          </SkillList>
           <img src={myPic} alt="" />
         </LeftPart>
         <ProjectList>
           <Project>
-            <h5>Portfolio</h5>
+            <ProjectTitle>Portfolio</ProjectTitle>
             <p>
               In this project I have developed my portfolio, where you can see
               the information related my portfolio. This is developed using
@@ -65,7 +77,7 @@ const Home = () => {
             </p>
             <p>
               <a
-                style={{ color: "black" }}
+                style={{ color: "#0556f3" }}
                 href="https://github.com/NSindhe/nextPortfolio"
               >
                 Redirect to repo
@@ -74,7 +86,7 @@ const Home = () => {
           </Project>
           <hr />
           <Project>
-            <h5>My Web</h5>
+            <ProjectTitle>My Web</ProjectTitle>
             <p>
               This project has the details related to me and my experience and
               some of the project that I learned, worked and practiced upon.
@@ -82,7 +94,7 @@ const Home = () => {
             </p>
             <p>
               <a
-                style={{ color: "black" }}
+                style={{ color: "#0556f3" }}
                 href="https://github.com/NSindhe/My_Web"
               >
                 Redirect to repo
@@ -91,7 +103,7 @@ const Home = () => {
           </Project>
           <hr />
           <Project>
-            <h5>Notebook</h5>
+            <ProjectTitle>Notebook</ProjectTitle>
             <p>
               This is MERN stack project, it is basically a todo list app where
               you can do CRUD operations. In this project I have created the
@@ -101,7 +113,7 @@ const Home = () => {
             </p>
             <p>
               <a
-                style={{ color: "black" }}
+                style={{ color: "#0556f3" }}
                 href="https://github.com/NSindhe/MERN_Notebook"
               >
                 Redirect to repo
@@ -110,11 +122,11 @@ const Home = () => {
           </Project>
           <hr />
           <Project>
-            <h5>Sketch Gallery</h5>
+            <ProjectTitle>Sketch Gallery</ProjectTitle>
             <p>This project is under progress.</p>
             <p>
               <a
-                style={{ color: "black" }}
+                style={{ color: "#0556f3" }}
                 href="https://github.com/NSindhe/sketch-gallery"
               >
                 Redirect to repo
@@ -123,11 +135,11 @@ const Home = () => {
           </Project>
           <hr />
           <Project>
-            <h5>Sample node service</h5>
+            <ProjectTitle>Sample node service</ProjectTitle>
             <p>A basic nodejs application to run a server locally</p>
             <p>
               <a
-                style={{ color: "black" }}
+                style={{ color: "#0556f3" }}
                 href="https://github.com/NSindhe/SampleNodeJS"
               >
                 Redirect to repo
