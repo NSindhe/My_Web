@@ -50,7 +50,7 @@ const Home = () => {
   return (
     <MainScreen title="Projects and Experience">
       <p>
-        I am a web develop with 7+ years of experience, I have 5+ years of
+        I am a web developer with 7+ years of experience, I have 5+ years of
         experience in React(UI) developements and 2 years of experence in
         testing. I started my career in Amazon as a Test Engineer, got chance to
         work as UI developer. Currently working as developent lead(IC) in
